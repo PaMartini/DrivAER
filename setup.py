@@ -7,7 +7,7 @@ setuptools.setup(
     author='Lukas Simon, Fangfang Yan',
     author_email="lkmklsmn@gmail.com",
     packages=['DrivAER'],
-    install_requires=['scikit-learn','scanpy','anndata', 'keras==2.3.1',
+    install_requires=['scikit-learn','scanpy','anndata', 'keras',
                       'pandas','seaborn','matplotlib','dca','tensorflow'
                       ],
         package_data={'DrivAER': ['data/*.txt','annotations/*.gmt','annotations/*.tsv']}
